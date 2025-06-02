@@ -39,7 +39,7 @@ The backend will listen on port `3033`.
 
 ### Frontend
 
-1. Open the `cilent\Registracija.html` file in your web browser (double-click or open with browser).  
+1. Open the `cilent/Registracija.html` file in your web browser (double-click or open with browser).  
 2. The frontend sends data to the backend at `http://localhost:3033/unosPodataka`.
 
 ---
