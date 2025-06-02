@@ -3,6 +3,8 @@
 This is a full-stack project that allows users to register vehicle information via a simple web interface.  
 The backend is built with Node.js and Express, while the frontend uses HTML, CSS, and JavaScript.
 
+> **Note:** This project was developed in Serbian as required — apologies to international readers!
+
 ---
 
 ## Features
