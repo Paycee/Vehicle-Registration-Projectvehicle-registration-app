@@ -69,25 +69,3 @@ Created by Pavle Milenović
 Contact me for collaboration or feedback!
 
 ---
-
-## Adding your project files to GitHub
-
-If you want to add your full project (frontend + backend) to a new GitHub repository, follow these steps:
-
-1. Open your terminal or command prompt and navigate to your project root directory:  
-   `cd path/to/vehicle-registration`  
-2. Initialize Git (if you haven't yet):  
-   `git init`  
-3. Add all files to staging area:  
-   `git add .`  
-4. Commit your changes:  
-   `git commit -m "Initial commit with backend and frontend"`  
-5. Create a new repository on GitHub (e.g. named `vehicle-registration`).  
-6. Link your local repo to GitHub remote (replace with your GitHub repo URL):  
-   `git remote add origin git@github.com:YourUsername/vehicle-registration.git`  
-7. Push your code to GitHub:  
-   `git push -u origin main`
-
----
-
-If you want, I can also help you prepare `.gitignore` or suggest how to organize your files better.
