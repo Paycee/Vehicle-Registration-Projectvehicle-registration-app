@@ -62,10 +62,21 @@ Response example:
 
 ---
 
-## Author
 
-Created by Pavle Milenović
+## About Me
 
-Contact me for collaboration or feedback!
+Created by **Pavle Milenović** — feel free to reach out if you want to collaborate or have feedback!
 
 ---
+
+## Contact
+
+- GitHub: [https://github.com/Paycee](https://github.com/Paycee)  
+- Email: pavle.milenovic@gmail.com  
+- [Upwork](https://www.upwork.com/freelancers/~01c2e1c44b41bb7941?mp_source=share)
+- [Freelancer](https://www.freelancer.com/u/pavlemilenovic?frm=pavlemilenovic&sb=t)
+
+---
+
+Thank you for checking out my project!  
+Feel free to connect or ask questions.
