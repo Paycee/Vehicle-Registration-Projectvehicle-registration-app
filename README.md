@@ -58,7 +58,7 @@ Response example:
 
 ## Screenshot
 
-![Frontend Screenshot](./frontend/screenshots/form.png)
+![Frontend Screenshot](.screenshots.Registracija.JPG)
 
 ---
 
