@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="Registracija.css">
+<script src="./Registracija.js" defer></script>
+<title>Регистрација</title>
+</head>
+<body>    
+<div class="form">
+   
+        <div class="m_markaVozila">
+            <label for="m_marka">Марка возила</label><br>
+            <select id="m_marka" name="marka">
+                <option value="odaberi">Одаберите возило</option>
+                <option value="alfa romeo">Алфа Ромео</option>
+                <option value="audi">Ауди</option>
+                <option value="bmw">БМВ</option>
+                <option value="dacia">Дачиа</option>
+                <option value="dodge">Доџ</option>
+                <option value="ferrari">Ферари</option>
+                <option value="fiat">Фиат</option>
+                <option value="honda">Хонда</option>
+                <option value="hyundai">Хјундаи</option>
+                <option value="jaguar">Јагуар</option>
+                <option value="lada">Лада</option>
+                <option value="lamborgini">Ламбурџини</option>
+                <option value="lancia">Ланчија</option>
+                <option value="land rover">Ланд Ровер</option>
+                <option value="maserati">Масерати</option>
+                <option value="mercedes benz">Мерцедес бенз</option>
+                <option value="nissan">Нисан</option>
+                <option value="opel">Опел</option>
+                <option value="porsche">Порше</option>
+            </select>
+        </div>
+
+        <div class="m_godisteVozila">
+            <label for="m_godiste">Годиште</label><br>
+            <input type="number" name="godiste" id="m_godiste">
+        </div>
+
+        <div class="m_snagaMotora"> 
+            <label for="m_snaga">Снага мотора у kW</label><br>
+            <input type="number" name="snaga" id="m_snaga">
+        </div>
+
+        <div class="m_zapreminaMotora">
+            <label for="m_zapremina">Запремина мотора</label><br>
+            <input type="number" name="zapremina" id="m_zapremina">
+        </div>
+        <div id="errorDiv"></div>
+
+        <div class="m_ostaliPodaci">
+            <p>Остали подаци:</p>
+
+            <label class="m_container" for="m_taxi">Возило се користи као такси<input type="checkbox" id="m_taxi" name="check3" value="taxi"><span class="m_checkmark"></span></label><br>
+            <label class="m_container" for="m_invalid">Возило се води на инвалида<input type="checkbox" id="m_invalid" name="check4" value="invalid"><span class="m_checkmark"></span></label><br>
+            <label class="m_container" for="m_rent-a-car">Возило у власништву rent-a-car фирме<input type="checkbox" id="m_rent-a-car" name="check5" value="rent-a-car"><span class="m_checkmark"></span></label>
+            
+        </div>
+        
+        <div class="m_saobracajnaItablice">
+            <p>Саобраћајна и таблице:</p>
+            <label class="m_container" for="m_saobracajna">Потребне ми је нова саобраћајна дозвола<input type="checkbox" id="m_saobracajna" name="check6" value="saobracajna"><span class="m_checkmark"></span></label><br>
+            <label class="m_container" for="m_tablice">Потребне су ми нове таблице<input type="checkbox" id="m_tablice" name="check7" value="tablice"><span class="m_checkmark"></span></label>
+        </div>
+<br>
+        <div class="dugme-prozor">
+            <button class="button-27" id="m_dugme" type="submit">Израчунај</button>
+            <div class="prozor"><p id="cena"></p></div>
+        </div>
+    
+</div>
+
+</body></html>
