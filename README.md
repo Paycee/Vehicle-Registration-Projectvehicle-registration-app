@@ -33,7 +33,7 @@ The backend is built with Node.js and Express, while the frontend uses HTML, CSS
 2. Install dependencies:  
    `npm install`  
 3. Start the backend server:  
-   `node server.js`  
+   `node index.js`  
 
 The backend will listen on port `3033`.
 
